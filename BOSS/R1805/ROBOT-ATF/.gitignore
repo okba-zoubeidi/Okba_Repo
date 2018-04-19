@@ -1,0 +1,7 @@
+*.idea
+*pyc
+*/reports/*
+reports/*
+*log.html
+*output.xml
+*report.html

@@ -1,0 +1,89 @@
+Home_menu==tab#id#menu
+Home_tab==link#xpath#//a[@href='/Home/Index']
+Phone_system_tab==link#id#phone_system_nav
+Operations_tab==link#id#operations_nav
+Organization_tab==id#xpath#//ul[@id='menu']/li/a[contains(text(),'Organization')]
+
+Authorized_contact_tab==id#xpath#//a[contains(text(),'Authorized Contacts')]
+Phone_system_tab1==id#xpath#//a[contains(text(),'Phone System')]
+Services_link1==id#xpath#//a[contains(text(),'Services')]
+Services_link==id#xpath#//a[@id='organization_nav']/following-sibling::div/div/ul/li/a[contains(text(),'Services')]
+Accounts_link==id#xpath#//a[contains(text(),'Accounts')]
+Contracts_link==id#xpath#//*[@id="operations_div"]/div/ul/li/a[contains(text(),'Contracts')]
+Partitions_link==id#xpath#//*[@id="operations_div"]/div/ul/li/a[contains(text(),'Partitions')]
+Primary_Partition_link==link#id#primary_partition_submenu
+All_Orders_link==id#xpath#//a[contains(text(),'All Orders')]
+
+Users_link==link#id#phone_system_users
+
+Partitions==list#xpath#//*[@class="scrollable"]/li
+
+CallRoutingTab==link#xpath#//li[@id='tab-call-routing']/a[@id='ui-id-5']
+CallRoutingTab_Availability==id#xpath#//select[@id='selAvailabilityOptions']
+CallRoutingTab_ConfigureMainSettings==id#xpath#//div[@id='configureMainSettingsButton']/button
+CallRoutingTab_ConfigureMainSettings_AddButton==id#xpath#//div[@id='callRoutingAddNumbersHeader']/button
+CallRoutingTab_ConfigureMainSettings_AddLabel1==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[@class='ng-scope'][1]/td[1]/input
+CallRoutingTab_ConfigureMainSettings_AddLabel2==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[@class='ng-scope'][2]/td[1]/input
+CallRoutingTab_ConfigureMainSettings_AddPhone1==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[@class='ng-scope'][1]/td[2]/input
+CallRoutingTab_ConfigureMainSettings_AddPhone2==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[@class='ng-scope'][2]/td[2]/input
+CallRoutingTab_ConfigureMainSettings_AddFinish==id#xpath#//button[@id='callRoutingSettingsWizard_finish']
+CallRoutingTab_ConfigureMainSettings_Remove1==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[2]/td[5]/button
+CallRoutingTab_ConfigureMainSettings_Remove2==id#xpath#//table[@id='tblCallRoutingNumbers']/tbody/tr[3]/td[5]/button
+CallRoutingTab_ConfigureMainSettings_SimRing1==id#xpath#//div[@id='cosmoCallRoutingSimRingContainer']/fieldset/div[3]/div[2]/select
+CallRoutingTab_ConfigureMainSettings_SimRing2==id#xpath#//div[@id='cosmoCallRoutingSimRingContainer']/fieldset/div[3]/div[3]/select
+CallRoutingTab_ConfigureMainSettings_FindMe1==id#xpath#//div[5]/div[@class='callRouting-marginTop'][1]/select
+CallRoutingTab_ConfigureMainSettings_FindMe2==id#xpath#//div[5]/div[@class='callRouting-marginTop'][2]/select
+CallRoutingTab_ConfigureMainSettings_Next==id#xpath#//button[@id='callRoutingSettingsWizard_next']
+CallRoutingTab_ChangeFindme==id#xpath#//tbody/tr[4]/td[@class='callRoutingSummaryButtonContainer']/button
+CallRoutingTab_ChangeFindme_Enabled==id#xpath#//div[@id='cosmoCallRoutingFindMeContainer']/fieldset[1]/div/div[@class='callRouting-marginTop']/span
+CallRoutingTab_ChangeVoiceMailInteraction==id#xpath#//tbody/tr[5]/td[@class='callRoutingSummaryButtonContainer']/button
+CallRoutingTab_NoVM==id#xpath#//div[@id='cosmoCallRoutingVoicemailContainer']/fieldset/div[1]/div[3]/input
+CallRoutingTab_ExtensionForward==id#xpath#//div[@id='cosmoCallRoutingVoicemailContainer']/fieldset/div[2]/div/input
+CallRoutingTab_Finish==id#xpath#//button[@id='availabilityRoutingWizard_finish']
+
+User_Options==link#id#userOptions
+Switch_account==link#id#switch-account-text
+
+company_name==id#id#company_name
+dm_login_agree==button#id#btnContinue
+Homepage_userMenuItems==link#id#userMenuItems
+Homepage_logoff==link#xpath#//a[contains(text(),'Log Off')]
+Homepage_stopImpersonating==link#xpath#//a[contains(text(),'Stop Impersonating')]
+
+status_tab==tab#id#headerRow_OrderStatusName
+location_tab==loc#xpath#.//*[@id='headerRow_FormattedLocationName']
+order_link==id#xpath#//a[contains(text(),'Orders')]
+order_id==id#xpath#//div[@id='datagrid_accountOrders']/div[5]/div/div[2]/div[1]/span/a
+order_status==id#xpath#//*[@id='OrderStatus']
+save_button==id#id#btnSave
+ok_button==id#xpath#//*[@id="fnMessageBox_OK"]
+export_button==id#id#accountOrdersExportBtn
+geo_location_status==id#id#headerRow_Status
+geo_location_name_field==grid#xpath#//div[@id='datagrid_accountLocations']/div[5]/div/div/div[2]
+close_location_next==id#id#CloseLocationWizard_next
+close_location_finish==id#id#CloseLocationWizard_finish
+location_export_button==id#id#accountLocationsExportBtn
+confirmation_text==id#xpath#//*[@id='divMessage']
+by_pass_validation==id#id#Address_bypassValidation
+close_option==id#id#ui-id-4
+
+aob_setup_link==link#xpath#//a[@id='phone_system_nav']/following-sibling::div/div/ul/li/div/span/a[contains(text(),'Mitel Easy Setup')]
+Ph_system_on_hold_music==a#xpath#//a[@id='phone_system_nav']/following-sibling::div/div/ul/li/a[contains(text(),'On Hold Music')]
+moh_add_music_button==button#id#musicDataGridNewHoldMusic
+moh_browseButton==input#id#browseButton
+
+#Profiles View
+# Elements to access information in UI for 'Operations > IP IPBX - Primary Partition > Profiles'
+ProfileDataGridCanvas==div#xpath#//*[@class="grid-canvas"]
+selectProfileCheckbox==xpath#xpath#(//*[@id="datagrid_partitionProfilesDataGrid"]//input)
+ProfilesProductDropdown==id#id#headerRow_ProfileTypeName
+profilesReassignButton==id#id#partitionProfilesDataGridReAssignButton
+profilesReassignNumberForm==id#id#reassignNumberForm
+profilesReassignNewExtensionInputBox==id#id#reassignExtension
+profilesReassignNumberFormSaveButton==id#id#reassignNumberForm_OK
+profilesReassignNumberNewExtensionErrorMessage==xpath#xpath#//*[@id="reassignNumberForm"]//*[@for="reassignExtension"]
+
+profileTableColumHeadings==id#xpath#//div[@id="datagrid_partitionProfilesDataGrid"]/div[2]/div
+profilesAllButtons==xpath#xpath#//*[@id="gridContainer_partitionProfilesDataGrid"]/div[2]
+ProfilesNumber==id#id#headerRow_TnFormatted
+ProfilesExtension==id#id#headerRow_Extension

@@ -1,0 +1,282 @@
+
+Folder: \
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CCleanerSkipUAC                          N/A                    Ready          
+GoogleUpdateTaskMachineCore              11/14/2017 2:46:18 PM  Ready          
+GoogleUpdateTaskMachineUA                11/13/2017 4:46:21 PM  Ready          
+mtgsuitemainabco                         11/13/2017 7:00:00 PM  Ready          
+stgsuitedevabco                          11/14/2017 6:00:00 AM  Ready          
+{0C5ED869-2E43-423D-AEE5-A3C6F6332780}   N/A                    Ready          
+
+Folder: \Microsoft
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Active Directory Rights Management Services Client
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AD RMS Rights Policy Template Management Disabled                              
+AD RMS Rights Policy Template Management N/A                    Ready          
+
+Folder: \Microsoft\Windows\AppID
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+PolicyConverter                          Disabled                              
+VerifiedPublisherCertStoreCheck          Disabled                              
+
+Folder: \Microsoft\Windows\Application Experience
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AitAgent                                 11/14/2017 2:30:00 AM  Ready          
+Microsoft Compatibility Appraiser        11/14/2017 3:11:16 AM  Ready          
+ProgramDataUpdater                       11/14/2017 12:14:44 AM Ready          
+
+Folder: \Microsoft\Windows\Autochk
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Proxy                                    N/A                    Ready          
+
+Folder: \Microsoft\Windows\Bluetooth
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UninstallDeviceTask                      N/A                    Ready          
+
+Folder: \Microsoft\Windows\CertificateServicesClient
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SystemTask                               N/A                    Ready          
+UserTask                                 N/A                    Ready          
+UserTask-Roam                            Disabled                              
+
+Folder: \Microsoft\Windows\Customer Experience Improvement Program
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Consolidator                             11/14/2017 2:00:00 AM  Could not start
+KernelCeipTask                           11/16/2017 3:30:00 AM  Ready          
+UsbCeip                                  11/16/2017 1:30:00 AM  Ready          
+
+Folder: \Microsoft\Windows\Defrag
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ScheduledDefrag                          11/15/2017 2:48:54 AM  Ready          
+
+Folder: \Microsoft\Windows\Diagnosis
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Scheduled                                11/19/2017 1:00:00 AM  Ready          
+
+Folder: \Microsoft\Windows\DiskDiagnostic
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Microsoft-Windows-DiskDiagnosticDataColl Disabled                              
+Microsoft-Windows-DiskDiagnosticResolver Disabled                              
+
+Folder: \Microsoft\Windows\Location
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Notifications                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\Maintenance
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+WinSAT                                   Disabled               Could not start
+
+Folder: \Microsoft\Windows\Media Center
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ActivateWindowsSearch                    N/A                    Ready          
+ConfigureInternetTimeService             N/A                    Ready          
+DispatchRecoveryTasks                    N/A                    Ready          
+ehDRMInit                                N/A                    Ready          
+InstallPlayReady                         N/A                    Ready          
+mcupdate                                 N/A                    Ready          
+MediaCenterRecoveryTask                  N/A                    Ready          
+ObjectStoreRecoveryTask                  N/A                    Ready          
+OCURActivate                             N/A                    Ready          
+OCURDiscovery                            N/A                    Ready          
+PBDADiscovery                            N/A                    Ready          
+PBDADiscoveryW1                          N/A                    Ready          
+PBDADiscoveryW2                          N/A                    Ready          
+PeriodicScanRetry                        Disabled                              
+PvrRecoveryTask                          N/A                    Ready          
+PvrScheduleTask                          N/A                    Ready          
+RecordingRestart                         Disabled                              
+RegisterSearch                           N/A                    Ready          
+ReindexSearchRoot                        N/A                    Ready          
+SqlLiteRecoveryTask                      N/A                    Ready          
+UpdateRecordPath                         N/A                    Ready          
+
+Folder: \Microsoft\Windows\MemoryDiagnostic
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CorruptionDetector                       N/A                    Ready          
+DecompressionFailureDetector             N/A                    Ready          
+
+Folder: \Microsoft\Windows\MobilePC
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+HotStart                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\MUI
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+LPRemove                                 N/A                    Ready          
+
+Folder: \Microsoft\Windows\Multimedia
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SystemSoundsService                      N/A                    Running        
+
+Folder: \Microsoft\Windows\NetTrace
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+GatherNetworkInfo                        N/A                    Ready          
+
+Folder: \Microsoft\Windows\Offline Files
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Background Synchronization               Disabled                              
+Logon Synchronization                    Disabled                              
+
+Folder: \Microsoft\Windows\PerfTrack
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BackgroundConfigSurveyor                 Disabled                              
+
+Folder: \Microsoft\Windows\PLA
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Power Efficiency Diagnostics
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AnalyzeSystem                            11/21/2017 9:08:42 AM  Ready          
+
+Folder: \Microsoft\Windows\RAC
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RacTask                                  11/13/2017 5:09:53 PM  Ready          
+
+Folder: \Microsoft\Windows\Ras
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MobilityManager                          N/A                    Ready          
+
+Folder: \Microsoft\Windows\Registry
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RegIdleBackup                            11/19/2017 12:19:07 AM Ready          
+
+Folder: \Microsoft\Windows\RemoteAssistance
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+RemoteAssistanceTask                     N/A                    Ready          
+
+Folder: \Microsoft\Windows\Shell
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+WindowsParentalControls                  Disabled                              
+WindowsParentalControlsMigration         Disabled                              
+
+Folder: \Microsoft\Windows\SideShow
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+AutoWake                                 Disabled                              
+GadgetManager                            N/A                    Ready          
+SessionAgent                             Disabled               Could not start
+SystemDataProviders                      Disabled               Could not start
+
+Folder: \Microsoft\Windows\SoftwareProtectionPlatform
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SvcRestartTask                           Disabled                              
+
+Folder: \Microsoft\Windows\SystemRestore
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SR                                       11/14/2017 12:00:00 AM Ready          
+
+Folder: \Microsoft\Windows\Task Manager
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Interactive                              N/A                    Ready          
+
+Folder: \Microsoft\Windows\Tcpip
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+IpAddressConflict1                       N/A                    Ready          
+IpAddressConflict2                       N/A                    Ready          
+
+Folder: \Microsoft\Windows\TextServicesFramework
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MsCtfMonitor                             N/A                    Running        
+
+Folder: \Microsoft\Windows\Time Synchronization
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+SynchronizeTime                          11/19/2017 1:00:00 AM  Ready          
+
+Folder: \Microsoft\Windows\UPnP
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UPnPHostConfig                           N/A                    Ready          
+
+Folder: \Microsoft\Windows\User Profile Service
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+HiveUploadTask                           Disabled                              
+
+Folder: \Microsoft\Windows\WDI
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ResolutionHost                           N/A                    Running        
+
+Folder: \Microsoft\Windows\Windows Activation Technologies
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ValidationTask                           2/10/2018 10:44:59 AM  Ready          
+ValidationTaskDeadline                   2/20/2018 10:44:59 AM  Ready          
+
+Folder: \Microsoft\Windows\Windows Error Reporting
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+QueueReporting                           N/A                    Ready          
+
+Folder: \Microsoft\Windows\Windows Filtering Platform
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+BfeOnServiceStartTypeChange              N/A                    Ready          
+
+Folder: \Microsoft\Windows\Windows Media Sharing
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+UpdateLibrary                            N/A                    Ready          
+
+Folder: \Microsoft\Windows\WindowsBackup
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+ConfigNotification                       11/14/2017 10:00:00 AM Ready          
+
+Folder: \Microsoft\Windows\WindowsColorSystem
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+Calibration Loader                       Disabled                              
+
+Folder: \Microsoft\Windows\Wininet
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+CacheTask                                N/A                    Running        
+
+Folder: \Microsoft\Windows Defender
+TaskName                                 Next Run Time          Status         
+======================================== ====================== ===============
+MP Scheduled Scan                        11/14/2017 5:27:19 AM  Ready          

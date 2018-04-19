@@ -1,0 +1,190 @@
+#*****************************************************************************
+#
+# MODULE      : pphone_util.itcl
+# VERSION     : DEV
+# $Revision: 1.42 $ $Modtime:    $
+# DESCRIPTION : Contains the util functions required in getting the configuration
+#                information in test case
+#****************************************************************************
+#***copyright_c***************************************************************
+# December 2004
+#
+# Copyright (c) 2002-2003 ShoreTel Communications
+#
+# All Rights Reserved
+#
+# THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of Shoretel Communications
+#
+# The copyright notice above does not evidence any actual or intended
+# publication of such source code
+# 
+#
+#                                   
+#****copyright_c**************************************************************
+#****history******************************************************************
+#
+# $Log: pphone_util.itcl,v $
+# Revision 1.0  2007/11/12 smahanty
+#  Created.
+#
+##############################################################################
+package require ftp 2.4
+package require Tcl 8 
+package require fileutil 1.5.9
+package require md5
+
+
+namespace eval pphoneutil {
+
+################################################################################# 
+#  pphoneutil::getFirstName
+################################################################################
+proc getFirstName {usrname} {
+   
+   ::vtf::log "getFirstName $usrname"
+   append userFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                    test usrmacFile.dat]
+   set fp [open $userFile r]
+
+   while { [gets $fp line] != -1 } {
+      set pos [lsearch -exact $line $usrname]
+      if {$pos  ne -1} {
+         close $fp
+         set phNo [lindex $line [expr $pos+0]]
+         return $phNo
+      } 
+   }  
+   close $fp
+}
+
+################################################################################# 
+#  pphoneutil::getLastName
+################################################################################
+proc getLastName {usrname} {
+   
+   ::vtf::log "getLastName $usrname"
+   append userFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                    test usrmacFile.dat]
+   set fp [open $userFile r]
+
+   while { [gets $fp line] != -1 } {
+      set pos [lsearch -exact $line $usrname]
+      if {$pos  ne -1} {
+         close $fp
+         set phNo [lindex $line [expr $pos+1]]
+         return $phNo
+      } 
+   }  
+   close $fp
+}
+
+################################################################################# 
+#  pphoneutil::getPhoneRESERVED
+################################################################################
+proc getPhoneRESERVED {usrname} {
+
+    ::vtf::log "getPhoneIp $usrname"
+    append macFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                         test usrmacFile.dat]
+    
+    set fp [open $macFile r]
+    while { [gets $fp line] != -1 } {
+        set pos [lsearch -exact $line $usrname]
+        if {$pos  ne -1} {
+            close $fp
+            set macaddr [lindex $line [expr $pos+2]]
+            return $macaddr
+        } 
+    } 
+    close $fp 
+}
+
+################################################################################# 
+#  pphoneutil::getPhoneType
+#  This function is used to get Phone Type .
+#  Phone Type Address corresponding to the UserName is read
+#  from the usermacFile present in the test dir.
+#
+################################################################################
+proc getPhoneType {usrname} {
+   
+   ::vtf::log "getPhoneType $usrname" 
+   append userFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                    test usrmacFile.dat]
+   set fp [open $userFile r]
+    
+   while { [gets $fp line] != -1 } {
+      set pos [lsearch -exact $line $usrname]
+      if {$pos == -1} {
+         continue 
+      } else {
+         close $fp
+         set phoneType [lindex $line [expr $pos+3]]
+         return $phoneType
+      } 
+   }  
+   close $fp
+}
+
+#############################################################################
+# pphoneutil::getPhoneIp
+# Gets the Switch Address.
+#
+#
+##############################################################################
+proc getPhoneIp {usrname} {
+    
+    ::vtf::log "getSwitchAddr $usrname" 
+    set phAddr ""
+    append macFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                   test usrmacFile.dat]
+    set fp [open $macFile r]
+    
+    while { [gets $fp line] != -1 } {
+       
+        set pos [lsearch -exact $line $usrname]
+        if {$pos == -1} {
+            continue 
+        } else {
+            close $fp
+            set phHost [lindex $line [expr $pos+4]]
+            set phAddr  $::ipbxCfg($phHost)
+            ::vtf::logi "DEBUG: ###### Lookup PhoneIp for $phHost got $phAddr #####"
+            return $phAddr
+        } 
+    }  
+    close $fp
+    return $phAddr
+}
+
+################################################################################# 
+#  pphoneutil::getPhNo
+#  This function is used to get MAC Address for the phone.
+#  MAC Address corresponding to the UserName is read
+#  from the usermacFile present in the test dir.
+#
+################################################################################
+proc getPhNo {usrname} {
+   
+   ::vtf::log "getPhNo $usrname"
+   append userFile [file join $::env(VTFHOME) shoretel-test IPBX-testsuites \
+                                                    test usrmacFile.dat]
+   set fp [open $userFile r]
+    
+   while { [gets $fp line] != -1 } {
+      set pos [lsearch -exact $line $usrname]
+      if {$pos  ne -1} {
+         close $fp
+         set phNo [lindex $line [expr $pos+5]]
+         return $phNo
+      } 
+   }  
+   close $fp
+}
+
+##############################################################################
+}
+##############################################################################
+package provide pphoneutil 1.0
+
+

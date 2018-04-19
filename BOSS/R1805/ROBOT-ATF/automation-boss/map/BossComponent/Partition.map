@@ -1,0 +1,5 @@
+primary_partition_link==a#id#primary_partition_submenu
+sites==tab#id#tab-sites
+site_checkbox==id#id#chbSetAsSite
+ok_btnPartitionSitesOk==button#id#btnPartitionSitesOk
+Par_localAreaCode==input#xpath#//input[contains(@id,'tbAreaCode_')]

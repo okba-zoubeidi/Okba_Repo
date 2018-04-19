@@ -1,0 +1,3 @@
+LoginUserName==input#id#UserName#0
+LoginPassword==input#id#Password#0
+LoginSubmit==button#xpath#//*[@id='m5-logon-form']/form/div/fieldset/div[5]/button/span[2]

@@ -1,0 +1,26 @@
+geo_loc==link#xpath#//a[@id='phone_system_nav']/following-sibling::div/div/ul/li/a[contains(text(),'Geographic Locations')]
+geo_accountLocationsAddButton==button#id#accountLocationsAddButton
+geo_LocationDetails_LocationNameFormatted==text#id#LocationDetails_LocationNameFormatted
+geo_Address_CountryKey==dropdown#id#Address_CountryKey
+geo_Address_Address1==text#id#Address_Address1
+geo_Address_Address2==select#id#Address_Address2
+geo_Address_City==text#id#Address_City
+geo_Address_StateProvinceKey==dropdown#id#Address_StateProvinceKey
+geo_Address_ZipCode==text#id#Address_ZipCode
+geo_bypass_validation==id#id#Address_bypassValidation
+geo_locationDetailsWizard_next==button#id#locationDetailsWizard_next
+geo_locationDetailsWizard_finish==button#id#locationDetailsWizard_finish
+
+geo_Street_HouseNo==input#id#Address_SubPremises
+geo_StreetName==input#id#Address_Address6
+geo_streetType==select#id#Address_Address7
+geo_city==input#id#Address_City
+geo_state==select#id#Address_StateProvinceKey
+geo_zipcode==input#id#Address_ZipCode
+geo_FirstName==input#id#Address_FirstName
+geo_LastName==input#id#Address_LastName
+geo_PhoneNumber==input#id#Address_PhoneNumber
+
+geo_timeZone==select#id#timeZone
+geo_AreaCode==input#id#AreaCode
+
